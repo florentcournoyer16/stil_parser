@@ -3,11 +3,11 @@ from typing import Optional, Dict, List, Union
 
 
 # local packages
-from stil.stil_signal import StilSignal, StilSignalType
-from stil.stil_signal_group import StilSignalGroup
-from stil.stil_waveform import StilTimingInCondition, StilTimingOutCondition, StilForce, StilCompare, StilUnits, StilWaveform
-from stil.stil_waveform_table import StilWaveformTable
-from stil.stil_test_vector import StilTestVector
+from stil_signal import StilSignal, StilSignalType
+from stil_signal_group import StilSignalGroup
+from stil_waveform import StilTimingInCondition, StilTimingOutCondition, StilForce, StilCompare, StilUnits, StilWaveform
+from stil_waveform_table import StilWaveformTable
+from stil_test_vector import StilTestVector
 
 
 class StilTest():

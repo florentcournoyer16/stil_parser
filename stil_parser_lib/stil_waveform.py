@@ -4,8 +4,8 @@ from typing import TypeVar, Generic, List, Dict
 
 
 # local packages
-from stil.stil_signal import StilSignalType
-from stil.stil_signal_group import StilSignalGroup
+from stil_signal import StilSignalType
+from stil_signal_group import StilSignalGroup
 
 
 class StilTimingInCondition(Enum):

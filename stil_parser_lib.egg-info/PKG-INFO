@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: stil_parser_lib
+Version: 0.1.0
+Summary: STIL file parser
+Author: Florent Cournoyer
+Dynamic: author
+Dynamic: summary

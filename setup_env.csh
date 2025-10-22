@@ -36,12 +36,14 @@ if ( ! $?ANACONDA_DIR ) then
 endif
 
 # base environement variables
-setenv PROJECT_NAME         STIL_PARSER                         # project name will also be Anaconda env. name
+setenv PROJECT_NAME STIL_PARSER # project name will also be Anaconda env. name
+setenv PROJECT_ROOT $PWD
 
 
 if ( $ENV_VERBOSE == 1 ) then
     echo "[INFO] base environement variables:"
-    echo "[INFO] PROJECT_NAME           = $PROJECT_NAME"
+    echo "[INFO] PROJECT_NAME = $PROJECT_NAME"
+    echo "[INFO] PROJECT_ROOT = $PROJECT_ROOT"
 endif
 
 

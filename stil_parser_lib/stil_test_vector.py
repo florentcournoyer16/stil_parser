@@ -3,10 +3,10 @@ from typing import Union, List, Dict, Tuple, Any
 
 
 # local packages
-from stil.stil_signal import StilSignal
-from stil.stil_signal_group import StilSignalGroup
-from stil.stil_waveform import StilCompare, StilForce, StilTimingInCondition, StilTimingOutCondition, StilWaveform
-from stil.stil_waveform_table import StilWaveformTable
+from stil_signal import StilSignal
+from stil_signal_group import StilSignalGroup
+from stil_waveform import StilCompare, StilForce, StilTimingInCondition, StilTimingOutCondition, StilWaveform
+from stil_waveform_table import StilWaveformTable
 
 
 class StilTestVector():

@@ -3,7 +3,7 @@ from typing import Optional, List
 
 
 #local packages
-from stil.stil_signal import StilSignal, StilSignalType
+from stil_signal import StilSignal, StilSignalType
 
 
 class StilSignalGroup():

@@ -5,7 +5,7 @@ from re import search, findall
 
 
 # local packages
-from stil.stil_test import StilTest
+from stil_test import StilTest
    
 
 class StilParser():

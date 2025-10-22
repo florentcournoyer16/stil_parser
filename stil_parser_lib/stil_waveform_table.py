@@ -3,8 +3,8 @@ from typing import List, Any, Dict, Union
 
 
 # local packages
-from stil.stil_waveform import StilWaveform, StilUnits
-from stil.stil_signal_group import StilSignalGroup
+from stil_waveform import StilWaveform, StilUnits
+from stil_signal_group import StilSignalGroup
 
 
 class StilWaveformTable():
@@ -64,7 +64,7 @@ class StilWaveformTable():
 
         waveform_table_str+=f"{indent_str}\twaveform dict:\n"
         for waveform in self.waveform_dict.values():
-            waveform_table_str+=f"{indent_str}{waveform.get_waveform_str(indent_level=indent_level+2)}\n"
+            waveform_table_str+=f"{waveform.get_waveform_str(indent_level=indent_level+2)}\n"
         
         waveform_table_str=waveform_table_str.removesuffix("\n")
         return waveform_table_str
