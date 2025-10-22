@@ -1,0 +1,11 @@
+name: STIL_PARSER
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+    - python=3.9
+    - pip
+    - setuptools
+    - wheel
+    - tmux
+    - twine
